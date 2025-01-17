@@ -1,0 +1,15 @@
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/bin/Debug/net9.0/PascalsTriangle
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/bin/Debug/net9.0/PascalsTriangle.deps.json
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/bin/Debug/net9.0/PascalsTriangle.runtimeconfig.json
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/bin/Debug/net9.0/PascalsTriangle.dll
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/bin/Debug/net9.0/PascalsTriangle.pdb
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.AssemblyInfoInputs.cache
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.AssemblyInfo.cs
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.csproj.CoreCompileInputs.cache
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.sourcelink.json
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.dll
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/refint/PascalsTriangle.dll
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.pdb
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/PascalsTriangle.genruntimeconfig.cache
+/Users/john/repos/triangle/PascalsTriangle/PascalsTriangle/obj/Debug/net9.0/ref/PascalsTriangle.dll
