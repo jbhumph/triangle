@@ -40,7 +40,6 @@ void printTriangle(int *triangle[], int lines) {
 
 // main method for program
 int main(void) {
-    // get user input
     int lines;
     printf("Enter the number of rows for the triangle: \n");
     scanf("%d", &lines);
