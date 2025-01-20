@@ -1,3 +1,9 @@
+/*
+ * NAME: John Humphrey 
+ * CS240 Lab 1: Recursion
+ * Team: John Humphrey, Jing Lin Lai, Adam Sabet
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,6 +20,24 @@ void calculate(int *triangle[], int x, int y, int lines) {
     calculate(triangle, x+1, y+1, lines);
 }
 
+// method for printing symmetrical triangle
+void printTriangle(int *triangle[], int lines) {
+    printf("\n\n");
+    for (int i = 0; i < lines; i++) {
+        for (int j = 0; j < lines - i; j++) {
+            printf("   ");
+        }
+        for (int j = 0; j < i + 1; j++) {
+            if (triangle[i][j] < 10) {
+                printf("%d     ", triangle[i][j]);
+            } else {
+                printf("%d    ", triangle[i][j]);
+            }
+        }
+        printf("\n\n");
+    }
+}
+
 // main method for program
 int main(void) {
     // get user input
@@ -21,24 +45,15 @@ int main(void) {
     printf("Enter the number of rows for the triangle: \n");
     scanf("%d", &lines);
 
-    // declare array of pointers
     int **triangle = malloc(lines * sizeof(int *));
     for (int i = 0; i < lines; i++) {
         triangle[i] = calloc(i + 1, sizeof(int));
     }
 
-    // call method to calculate triangle
     calculate(triangle, 0, 0, lines);
-
-    // print the triangle
-    for (int i = 0; i < lines; i++) {
-        for (int j = 0; j < i + 1; j++) {
-            printf("%d  ", triangle[i][j]);
-        }
-        printf("\n");
-    }
-
-    // free memory
+    printTriangle(triangle, lines);
+    printf("\n");
+    
     for (int i = 0; i < lines; i++) {
         free(triangle[i]);
     }
